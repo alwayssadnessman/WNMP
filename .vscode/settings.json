@@ -1,0 +1,14 @@
+{
+    "php.validate.executablePath": "D:\\WNMP\\PHP\\php.exe",
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "powermode.enabled": true,
+    "editor.fontLigatures": null,
+    "git.path":"C:\Program Files\Git\cmd\git.exe"
+
+}

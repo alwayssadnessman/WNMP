@@ -1,0 +1,2 @@
+JAVA_VERSION="11.0.5"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.logging java.management java.security.sasl java.naming java.rmi java.management.rmi java.scripting java.security.jgss java.transaction.xa java.sql java.sql.rowset jdk.internal.jvmstat jdk.attach jdk.charsets jdk.crypto.ec jdk.crypto.cryptoki jdk.crypto.mscapi jdk.jcmd jdk.localedata jdk.management jdk.net jdk.pack jdk.security.auth jdk.security.jgss jdk.unsupported jdk.unsupported.desktop jdk.xml.dom"

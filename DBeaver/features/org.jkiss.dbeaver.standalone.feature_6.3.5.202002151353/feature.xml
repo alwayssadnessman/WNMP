@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="org.jkiss.dbeaver.standalone.feature"
+        label="%featureName"
+        version="6.3.5.202002151353"
+        provider-name="%providerName"
+        plugin="org.jkiss.dbeaver.core.application">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <url>
+        <update label="DBeaver Universal Database Manager" url="https://dbeaver.io/"/>
+    </url>
+
+    <requires>
+        <import plugin="org.apache.commons.logging" match="greaterOrEqual"/>
+        <import plugin="com.jcraft.jsch" match="greaterOrEqual"/>
+        <import plugin="org.objectweb.asm" match="greaterOrEqual"/>
+    </requires>
+
+    <includes id="org.jkiss.dbeaver.rcp.feature" version="2.1.102.202002151353"/>
+
+    <includes id="org.jkiss.dbeaver.runtime.feature" version="6.3.5.202002151353"/>
+    <includes id="org.jkiss.dbeaver.ui.feature" version="6.3.5.202002151353"/>
+    <includes id="org.jkiss.dbeaver.db.feature" version="1.0.18.202002151353"/>
+    <includes id="org.jkiss.dbeaver.db.ui.feature" version="1.0.18.202002151353"/>
+
+    <!-- Additional plugins for standalone version -->
+
+    <plugin id="org.jkiss.dbeaver.ext.sample.database" download-size="410" install-size="1112" version="1.0.64.202002151353" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.ui.tipoftheday" download-size="17" install-size="34" version="1.0.33.202002151353" unpack="false"/>
+
+    <!-- P2 for RCP -->
+    <includes id="org.eclipse.equinox.p2.rcp.feature" version="1.4.600.v20191120-0247"/>
+    <includes id="org.eclipse.equinox.p2.discovery.feature" version="1.2.400.v20191014-1907"/>
+    <includes id="org.eclipse.equinox.p2.extras.feature" version="1.4.600.v20191120-0247"/>
+    <includes id="org.eclipse.equinox.p2.user.ui" version="2.4.600.v20191120-0247"/>
+
+    <plugin id="org.eclipse.ui.ide.application" download-size="105" install-size="202" version="1.3.500.v20191122-2109" unpack="false"/>
+
+    <!-- EGit and other requirements -->
+    <plugin id="org.eclipse.ui.net" download-size="45" install-size="85" version="1.3.600.v20190925-1021"/>
+    <plugin id="org.eclipse.jsch.core" download-size="40" install-size="75" version="1.3.700.v20190925-1021"/>
+    <plugin id="org.eclipse.jsch.ui" download-size="91" install-size="180" version="1.3.700.v20191105-0922"/>
+    <plugin id="org.eclipse.core.variables" download-size="35" install-size="65" version="3.4.700.v20191114-1848"/>
+    <!--<plugin id="org.eclipse.ui.cheatsheets" download-size="0" install-size="0" version="0.0.0"/>-->
+
+    <!-- Include org.eclipse.ui.themes because it was added only in 4.4 -->
+    <plugin id="org.eclipse.ui.themes" download-size="53" install-size="124" version="1.2.800.v20191127-1314"/>
+
+    <!-- Custom stuff -->
+    <plugin id="org.apache.commons.cli" download-size="51" install-size="107" version="1.3.1" unpack="false"/>
+
+
+</feature>

@@ -1,0 +1,1 @@
+D:\WNMP\nginx-1.19.6\nginx.exe -s quit

@@ -1,0 +1,17 @@
+2021/01/21 20:46:40 [emerg] 16140#3516: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:47:56 [emerg] 6088#15144: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:48:16 [emerg] 5504#5892: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:48:57 [emerg] 22208#15836: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:48:59 [emerg] 16944#4876: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:49:01 [emerg] 13480#20808: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:49:53 [emerg] 7128#22452: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:50:14 [emerg] 11848#15756: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:52:45 [emerg] 15772#20960: unexpected "}" in D:\WNMP\nginx-1.19.6/conf/nginx.conf:73
+2021/01/21 20:55:06 [emerg] 14768#22256: unknown directive "root:D:/WNMP/webroot" in D:\WNMP\nginx-1.19.6/conf/conf.d/default.conf:4
+2021/01/21 20:57:52 [error] 17032#13072: *1 CreateFile() "D:/WNMP/webroot/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/01/21 21:04:15 [error] 17032#13072: *4 CreateFile() "D:/WNMP/webroot/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/01/22 09:39:25 [error] 14356#10992: *1 CreateFile() "D:/WNMP/webroot/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/01/22 09:39:30 [error] 14356#10992: *1 CreateFile() "D:/WNMP/webroot/index" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2021/01/22 09:39:39 [error] 14356#10992: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/01/22 09:40:47 [error] 14356#10992: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/01/22 09:42:44 [error] 14356#10992: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"

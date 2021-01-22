@@ -1,0 +1,1 @@
+D:\WNMP\PHP\php-cgi -b 127.0.0.1:9000 -c D:\WNMP\PHP\php.ini

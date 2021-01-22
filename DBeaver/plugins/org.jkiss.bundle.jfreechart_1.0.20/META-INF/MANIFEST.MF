@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jkiss.bundle.jfreechart;singleton:=true
+Built-By: jurgen
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: DBeaver Corp
+Import-Package: org.eclipse.swt,org.eclipse.swt.events,org.eclipse.swt
+ .graphics,org.eclipse.swt.layout,org.eclipse.swt.printing,org.eclipse
+ .swt.widgets
+Export-Package: org.jfree.chart,org.jfree.chart.annotations,org.jfree.
+ chart.axis,org.jfree.chart.labels,org.jfree.chart.swt,org.jfree.chart
+ .swt.editor,org.jfree.chart.panel,org.jfree.chart.plot,org.jfree.char
+ t.renderer,org.jfree.chart.renderer.category,org.jfree.chart.renderer
+ .xy,org.jfree.chart.title,org.jfree.chart.util,org.jfree.data,org.jfr
+ ee.data.category,org.jfree.data.function,org.jfree.data.gantt,org.jfr
+ ee.data.general,org.jfree.data.statistics,org.jfree.data.time,org.jfr
+ ee.data.xml,org.jfree.data.xy,org.jfree.swt,org.jfree.ui
+Bundle-Name: JFreeChart bundle
+Bundle-Version: 1.0.20
+Bundle-ClassPath: lib/jcommon-1.0.23.jar,lib/jfreechart-1.0.19.jar,lib
+ /jfreechart-swt-1.0.jar,lib/swtgraphics2d-1.0.jar,.
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_141
+Eclipse-BundleShape: dir
+
